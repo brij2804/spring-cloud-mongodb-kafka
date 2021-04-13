@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order-service
+
+server:
+    port: 8200
+
+order-service:
+  mongo-server-url: mongodb://127.0.0.1:27017
+  db-name: orderdb
+  collection-name: order

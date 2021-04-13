@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: inventory-service
+
+server:
+    port: 8100
+
+inventory-service:
+  mongo-server-url: mongodb://127.0.0.1:27017
+  db-name: inventorydb
+  collection-name: inventory
