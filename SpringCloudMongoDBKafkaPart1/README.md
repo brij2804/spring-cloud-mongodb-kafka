@@ -4,6 +4,7 @@
 - inventory-service
 - pricing-service
 - shipping-service
+- kafka-setup
 
 # Tech stack
 springboot-starter 2.4.4 , java 15,mongo:4.4.5, spring-boot-starter-data-mongodb
